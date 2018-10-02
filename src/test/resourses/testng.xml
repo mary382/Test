@@ -1,0 +1,80 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo Suite">
+
+
+    <listeners>
+        <listener class-name="listeners.Listeners"/>
+    </listeners>
+
+    <test name="Sub Cal Test">
+        <classes>
+            <class name="tests.SubCalTest"/>
+        </classes>
+    </test>
+
+    <test name="Sum Cal Test">
+        <classes>
+            <class name="tests.SumCalTest"/>
+        </classes>
+    </test>
+
+    <test name="Mult Cals Test">
+        <classes>
+            <class name="tests.MultCalTest"/>
+        </classes>
+    </test>
+
+    <test name="Div Cals Test">
+        <classes>
+            <class name="tests.DivCalTest"/>
+        </classes>
+    </test>
+
+    <test name="Cos Cals Test">
+        <classes>
+            <class name="tests.CosCalcTest"/>
+        </classes>
+    </test>
+
+    <test name="Sin Cals Test">
+        <classes>
+            <class name="tests.SinCalcTest"/>
+        </classes>
+    </test>
+
+    <test name="Ctg Cals Test">
+        <classes>
+            <class name="tests.CtgCalcTest"/>
+        </classes>
+    </test>
+
+    <test name="isNegative Cals Test">
+        <classes>
+            <class name="tests.isNegativeCalcTest"/>
+        </classes>
+    </test>
+
+    <test name="isPositive Cals Test">
+        <classes>
+            <class name="tests.isPositiveCalcTest"/>
+        </classes>
+    </test>
+
+    <test name="Pow Cals Test">
+        <classes>
+            <class name="tests.PowCalcTest"/>
+        </classes>
+    </test>
+
+    <test name="Tg Cals Test">
+        <classes>
+            <class name="tests.TgCalcTest"/>
+        </classes>
+    </test>
+
+    <test name="Sqrt Cals Test">
+        <classes>
+            <class name="tests.SqrtCalcTest"/>
+        </classes>
+    </test>
+</suite>
