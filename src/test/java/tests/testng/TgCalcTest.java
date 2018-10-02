@@ -1,11 +1,11 @@
-package tests;
+package tests.testng;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TgCalcTest extends BaseClass {
-    @Test(dataProvider = "valuesForTgTest")
+    @Test(dataProvider = "valuesForTgTest",groups = {"TrigonometricFunctions"})
     public void tgDoubleTest(double a, double expectedResult) {
         double actualResult = calculator.tg(a);
         Assert.assertEquals(actualResult, expectedResult, "Invalid result in tg operation.");

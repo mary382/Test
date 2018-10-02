@@ -1,11 +1,11 @@
-package tests;
+package tests.testng;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class SinCalcTest extends BaseClass {
-    @Test(dataProvider = "valuesForSinTest")
+    @Test(dataProvider = "valuesForSinTest",groups = {"TrigonometricFunctions"})
     public void sinDoubleTest(double a, double expectedResult) {
         double actualResult = calculator.sin(a);
         Assert.assertEquals(actualResult, expectedResult, "Invalid result in Cos operation.");

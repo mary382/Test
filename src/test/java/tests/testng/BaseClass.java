@@ -1,4 +1,4 @@
-package tests;
+package tests.testng;
 
 import com.epam.tat.module4.Calculator;
 import org.testng.annotations.AfterClass;
@@ -9,12 +9,12 @@ public class BaseClass {
     protected Calculator calculator;
 
     @BeforeClass
-    public void setUp(){
-        calculator=new Calculator();
+    public void setUp() {
+        calculator = new Calculator();
     }
 
     @AfterClass
-    public void tearDown(){
-        calculator=null;
+    public void tearDown() {
+        calculator = null;
     }
 }

@@ -8,73 +8,73 @@
 
     <test name="Sub Cal Test">
         <classes>
-            <class name="tests.SubCalTest"/>
+            <class name="tests.testng.SubCalTest"/>
         </classes>
     </test>
 
     <test name="Sum Cal Test">
         <classes>
-            <class name="tests.SumCalTest"/>
+            <class name="tests.testng.SumCalTest"/>
         </classes>
     </test>
 
     <test name="Mult Cals Test">
         <classes>
-            <class name="tests.MultCalTest"/>
+            <class name="tests.testng.MultCalTest"/>
         </classes>
     </test>
 
     <test name="Div Cals Test">
         <classes>
-            <class name="tests.DivCalTest"/>
+            <class name="tests.testng.DivCalTest"/>
         </classes>
     </test>
 
     <test name="Cos Cals Test">
         <classes>
-            <class name="tests.CosCalcTest"/>
+            <class name="tests.testng.CosCalcTest"/>
         </classes>
     </test>
 
     <test name="Sin Cals Test">
         <classes>
-            <class name="tests.SinCalcTest"/>
+            <class name="tests.testng.SinCalcTest"/>
         </classes>
     </test>
 
     <test name="Ctg Cals Test">
         <classes>
-            <class name="tests.CtgCalcTest"/>
+            <class name="tests.testng.CtgCalcTest"/>
         </classes>
     </test>
 
     <test name="isNegative Cals Test">
         <classes>
-            <class name="tests.isNegativeCalcTest"/>
+            <class name="tests.testng.isNegativeCalcTest"/>
         </classes>
     </test>
 
     <test name="isPositive Cals Test">
         <classes>
-            <class name="tests.isPositiveCalcTest"/>
+            <class name="tests.testng.isPositiveCalcTest"/>
         </classes>
     </test>
 
     <test name="Pow Cals Test">
         <classes>
-            <class name="tests.PowCalcTest"/>
+            <class name="tests.testng.PowCalcTest"/>
         </classes>
     </test>
 
     <test name="Tg Cals Test">
         <classes>
-            <class name="tests.TgCalcTest"/>
+            <class name="tests.testng.TgCalcTest"/>
         </classes>
     </test>
 
     <test name="Sqrt Cals Test">
         <classes>
-            <class name="tests.SqrtCalcTest"/>
+            <class name="tests.testng.SqrtCalcTest"/>
         </classes>
     </test>
 </suite>

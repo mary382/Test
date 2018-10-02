@@ -1,4 +1,4 @@
-package tests;
+package tests.testng;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class CosCalcTest extends BaseClass {
 
-    @Test(dataProvider = "valuesForCosTest")
+    @Test(dataProvider = "valuesForCosTest",groups = {"TrigonometricFunctions"})
     public void cosDoubleTest(double a, double expectedResult) {
         double actualResult = calculator.cos(a);
         Assert.assertEquals(actualResult, expectedResult, "Invalid result in Cos operation.");

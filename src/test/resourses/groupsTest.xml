@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="true" name="Smoke Trigonometric Functions Test">
+    <test name="Trigonometric Functions">
+        <groups>
+            <run>
+                <include name="TrigonometricFunctions" />
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.testng" />
+        </packages>
+    </test>
+    <test name="Arifmetic Functions">
+        <groups>
+            <run>
+                <include name="ArifmeticFunctions" />
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.testng" />
+        </packages>
+    </test>
+</suite>

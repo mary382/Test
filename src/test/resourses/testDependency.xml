@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Groups Dependency Test Example">
+    <test name="Run Dependant Groups">
+        <groups>
+            <dependencies>
+                <group name="TrigonometricFunctions" depends-on="ArifmeticFunctions" />
+            </dependencies>
+        </groups>
+        <packages>
+            <package name="tests.testng"/>
+        </packages>
+    </test>
+</suite>
